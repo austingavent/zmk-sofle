@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - layer1
   - {t: '$$mdi:backspace$$', h: F13}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}
   - {t: 'Gui+$$mdi:apple-keyboard-option$$', h: '2'}
@@ -238,7 +238,7 @@ layers:
   - {type: held}
   - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+C
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+Gui+]', s: 'Sft+Gui+}'}

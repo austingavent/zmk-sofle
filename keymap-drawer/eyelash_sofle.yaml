@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - ':'
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -57,8 +57,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
-  - layer1
-  - {t: '$$mdi:backspace$$', h: F13}
+  - {t: F13, h: layer1}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: layer1}

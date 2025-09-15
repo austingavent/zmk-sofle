@@ -11,14 +11,14 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: eyelash_sofle_right_peripheral
   
-  # Dongle build with ZMK Studio support
+  # Dongle build WITHOUT Studio (remove the studio lines)
   - board: nice_nano_v2
-    shield: eyelash_sofle_dongle  # <-- No nice_view here
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
-    artifact-name: eyelash_sofle_dongle_studio
+    shield: eyelash_sofle_dongle
+    artifact-name: eyelash_sofle_dongle
+    # REMOVED: snippet: studio-rpc-usb-uart
+    # REMOVED: cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   
-  # Keep your original Studio build for non-dongle use if needed
+  # Keep your original Studio build for non-dongle use
   - board: eyelash_sofle_left
     shield: nice_view
     snippet: studio-rpc-usb-uart

@@ -56,7 +56,7 @@
             time-to-max-speed-ms = <500>;
             acceleration-exponent = <1>;
         };
-        
+
         mmv_fast: mmv_fast {
             compatible = "zmk,behavior-mouse-move";
             #binding-cells = <1>;
@@ -80,11 +80,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2            &kp N3              &kp N4     &kp N5                                  &kp UP_ARROW     &kp N6                              &kp N7        &kp N8              &kp N9                             &kp N0                               &mt COLON MINUS
-&kp TAB     &kp Q      &kp W             &kp E               &kp R      &kp T                                   &kp DOWN_ARROW   &kp Y                               &kp U         &kp I               &kp O                              &kp P                                &kp BSLH
-&kp CAPS    &kp A      &kp S             &kp D               &kp F      &kp G                                   &kp LEFT_ARROW   &kp H                               &kp J         &kp K               &kp L                              &kp SEMI                             &kp APOS
-&lt 3 CAPS  &kp Z      &kp X             &kp C               &kp V      &kp B                                   &kp RIGHT_ARROW  &kp N                               &kp M         &kp COMMA           &kp DOT                            &kp FSLH                             &kp ENTER
-&kp C_MUTE  &kp LCTRL  &mt LEFT_ALT DEL  &mt LEFT_GUI ENTER  &lt 1 F13  &custom_tapprefer LEFT_ALT BACKSPACE    &kp ENTER        &custom_tapprefer LEFT_SHIFT SPACE  &lt 1 RETURN  &lt 2 LA(LEFT_GUI)  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS
+&kp ESC     &kp N1     &kp N2            &kp N3              &kp N4     &kp N5                                  &kp UP_ARROW     &kp N6                              &kp N7       &kp N8              &kp N9                                           &kp N0                                             &mt COLON MINUS
+&kp TAB     &kp Q      &kp W             &kp E               &kp R      &kp T                                   &kp DOWN_ARROW   &kp Y                               &kp U        &kp I               &kp O                                            &kp P                                              &kp BSLH
+&kp CAPS    &kp A      &kp S             &kp D               &kp F      &kp G                                   &kp LEFT_ARROW   &kp H                               &kp J        &kp K               &kp L                                            &kp SEMI                                           &kp APOS
+&lt 3 CAPS  &kp Z      &kp X             &kp C               &kp V      &kp B                                   &kp RIGHT_ARROW  &kp N                               &kp M        &kp COMMA           &kp DOT                                          &kp FSLH                                           &kp ENTER
+&kp C_MUTE  &kp LCTRL  &mt LEFT_ALT DEL  &mt LEFT_GUI ENTER  &lt 1 F13  &custom_tapprefer LEFT_ALT BACKSPACE    &kp ENTER        &custom_tapprefer LEFT_SHIFT SPACE  &lt 1 ENTER  &lt 2 LA(LEFT_GUI)  &custom_tapprefer LEFT_BRACKET LEFT_PARENTHESIS  &custom_tapprefer RIGHT_BRACKET RIGHT_PARENTHESIS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;

@@ -25,6 +25,8 @@
         zmk,underglow = &led_strip;
         zmk,physical-layout = &eyelash_sofle_layout;
         zmk,backlight = &backlight;
+ 	    zmk,left-encoder = &left_encoder;  
+
     };
 
 	left_encoder: encoder_left {

@@ -49,7 +49,22 @@
     };
 
     behaviors {
+    mmv_slow: mmv_slow {
+        compatible = "zmk,behavior-mouse-move";
+        #binding-cells = <1>;
+        delay-ms = <0>;
+        time-to-max-speed-ms = <500>;
+        acceleration-exponent = <1>;
     };
+    
+    mmv_fast: mmv_fast {
+        compatible = "zmk,behavior-mouse-move";
+        #binding-cells = <1>;
+        delay-ms = <0>;
+        time-to-max-speed-ms = <100>;
+        acceleration-exponent = <2>;
+    };
+};
 
     combos {
         compatible = "zmk,combos";

@@ -1,4 +1,6 @@
 draw_config:
+  exclude_boards:
+       - eyelash_sofle_dongle
   n_columns: 1
   draw_key_sides: true
   key_w: 60.0

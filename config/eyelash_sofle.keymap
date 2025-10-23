@@ -29,6 +29,12 @@
 &soft_off { hold-time-ms = <2000>; };
 
 / {
+    vol_encoder: vol_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        // Bindings are <CCW>, <CW>
+        bindings = <&kp C_VOL_DN>, <&kp C_VOL_UP>; 
+    };
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
@@ -87,7 +93,7 @@
 &kp C_MUTE  &kp LCTRL  &mt LEFT_ALT DEL  &mt LEFT_GUI ENTER  &lt 1 F13  &kp BACKSPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&vol_encoder>; // Use the new behavior
             display-name = "LAYER0";
         };
 

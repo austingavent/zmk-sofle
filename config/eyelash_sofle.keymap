@@ -95,7 +95,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6              &kp F7        &kp F8         &kp F9             &kp F10        &kp F11
 &trans      &kp GRAVE        &mkp LCLK       &mmv MOVE_UP     &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP           &kp END       &kp UP         &kp HOME           &kp MINUS      &kp EQUAL
-&trans      &mmv_fast        &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &mmv_slow          &mmv MOVE_LEFT   &kp LG(LEFT_ARROW)  &kp LEFT      &kp DOWN       &kp RIGHT          &kp LG(RIGHT)  &kp RIGHT_BRACKET
+&trans      &trans           &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &trans             &mmv MOVE_LEFT   &kp LG(LEFT_ARROW)  &kp LEFT      &kp DOWN       &kp RIGHT          &kp LG(RIGHT)  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp LS(LA(LEFT))    &kp LA(LEFT)  &kp LA(RIGHT)  &kp LS(LA(RIGHT))  &kp F12        &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &kp BACKSPACE      &mkp LCLK        &mkp LCLK           &mkp RCLK     &mkp MCLK      &trans             &trans
             >;

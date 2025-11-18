@@ -128,11 +128,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(L)          &trans  &trans         &trans         &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(K)          &trans  &trans         &trans         &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(J)          &trans  &kp LA(MINUS)  &kp LA(PLUS)   &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LA(SEMICOLON)  &trans  &trans         &trans         &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LS(LA(SQT))    &trans  &trans         &kp PAGE_DOWN  &kp PG_UP  &trans
+&kp TILDE  &trans  &trans  &trans  &trans  &trans    &kp LA(L)          &trans  &trans         &trans         &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp LA(K)          &trans  &trans         &trans         &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp LA(J)          &trans  &kp LA(MINUS)  &kp LA(PLUS)   &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp LA(SEMICOLON)  &trans  &trans         &trans         &trans     &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp LS(LA(SQT))    &trans  &trans         &kp PAGE_DOWN  &kp PG_UP  &trans
             >;
 
             display-name = "layer3";

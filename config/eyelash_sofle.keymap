@@ -75,6 +75,15 @@
         };
     };
 
+    macros {
+        superwhisper: superwhisper {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp LEFT_CONTROL>;
+            label = "SUPERWHISPER";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
